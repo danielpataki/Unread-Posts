@@ -102,7 +102,7 @@ class UP_Unread_Posts_Widget extends WP_Widget {
                 <label for="<?php echo $this->get_field_name( 'orderby' ); ?>"><?php _e( 'Post Ordering:', 'unread-posts' ) ?> </label>
                 <select class='widefat'  id="<?php echo $this->get_field_id( 'orderby' ); ?>" name="<?php echo $this->get_field_name( 'orderby' ); ?>">
                     <?php foreach( $orderby_options as $value => $name ) : ?>
-                        <option <?php selected( $instance['orderby'], $value ) ?> value='<?php echo $value ?>'><?php echo $name ?></option>
+                        <option <?php selected( $orderby, $value ) ?> value='<?php echo $value ?>'><?php echo $name ?></option>
                     <?php endforeach ?>
                 </select>
             </p>
