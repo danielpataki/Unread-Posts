@@ -1,0 +1,43 @@
+.unread-posts .SumoSelect {
+    display:block;
+    width:100%;
+}
+.unread-posts .SumoSelect .SlectBox{
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #333;
+    outline: 0;
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+}
+
+
+form.unread-posts {
+    max-width: 500px;
+}
+
+form.unread-posts table {
+    width:100%;
+}
+
+form.unread-posts table input[type="text"], form.unread-posts table select {
+    width:100%;
+}
+
+form.unread-posts .checkbox-label {
+    display:block;
+    margin-top:11px;
+}
+
+form.unread-posts .checkbox-label:first-of-type {
+    margin:0px;
+}
+
+form.unread-posts .post-type-type-select .SumoSelect {
+    margin-top:11px;
+}

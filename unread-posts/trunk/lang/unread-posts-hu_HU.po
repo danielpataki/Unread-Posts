@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unread Posts 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-08 14:31+0100\n"
+"PO-Revision-Date: 2015-05-08 14:32+0100\n"
+"Last-Translator: Daniel Pataki <contact@tastique.org>\n"
+"Language-Team: Daniel Pataki <hello@danielpataki.com>\n"
+"Language: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-up-unread-posts-widget.php:42
+msgid "A customizable widget that displays unread posts"
+msgstr "Rugalmas widget amely olvasatlan bejegyzéseket mutat"
+
+#: classes/class-up-unread-posts-widget.php:45
+#: classes/class-up-unread-posts.php:194 classes/class-up-unread-posts.php:229
+msgid "Unread Posts"
+msgstr "Olvasatlan Bejegyzések"
+
+#: classes/class-up-unread-posts-widget.php:71
+#: classes/class-up-unread-posts.php:251
+msgid "Latest Posts"
+msgstr "Legutolsó Bejegyzések"
+
+#: classes/class-up-unread-posts-widget.php:72
+#: classes/class-up-unread-posts.php:252
+msgid "Random Posts"
+msgstr "Véletlenszerű Bejegyzések"
+
+#: classes/class-up-unread-posts-widget.php:79
+msgid "Title:"
+msgstr "Cím:"
+
+#: classes/class-up-unread-posts-widget.php:84
+msgid "Posts To Show:"
+msgstr "Bejegyzések Száma:"
+
+#: classes/class-up-unread-posts-widget.php:90
+msgid "Post Types:"
+msgstr "Bejegyzés Típusok:"
+
+#: classes/class-up-unread-posts-widget.php:102
+msgid "Post Ordering:"
+msgstr "Sorrend Alapja:"
+
+#: classes/class-up-unread-posts.php:92
+msgid "Select post types to include"
+msgstr "Válassz bejegyzés típusokat"
+
+#: classes/class-up-unread-posts.php:147 classes/class-up-unread-posts.php:236
+msgid "Read Next"
+msgstr "Következő Cikkek"
+
+#: classes/class-up-unread-posts.php:246
+msgid "Same as the current post"
+msgstr "Ugyanaz mint az aktuális bejegyzés"
+
+#: classes/class-up-unread-posts.php:247
+msgid "Select from a list"
+msgstr "Listából választok"
+
+#: classes/class-up-unread-posts.php:258
+msgid "Unread Posts Below Post Content"
+msgstr "Olvasatlan Bejegyzések A Bejegyzés Alatt"
+
+#: classes/class-up-unread-posts.php:261
+msgid "Show Below Post Content?"
+msgstr "Mutatás Bejegyzések Alatt?"
+
+#: classes/class-up-unread-posts.php:266
+msgid "Section Title"
+msgstr "Cím"
+
+#: classes/class-up-unread-posts.php:271
+msgid "Posts To Show"
+msgstr "Bejegyzések Száma"
+
+#: classes/class-up-unread-posts.php:276
+msgid "Show Below Post Types"
+msgstr "Mutatás Bejegyzések Alatt"
+
+#: classes/class-up-unread-posts.php:291
+msgid "Post Types To List"
+msgstr "Bejegyzés Típusok A Listában"
+
+#: classes/class-up-unread-posts.php:320
+msgid "Post Ordering"
+msgstr "Sorrend Alapja"
+
+#~ msgid "Up Next"
+#~ msgstr "Következő Cikkek"

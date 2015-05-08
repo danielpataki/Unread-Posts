@@ -1,8 +1,15 @@
-# Top Authors
+=== Unread Posts ===
+Contributors: danielpataki
+Tags: posts, related, widget
+Requires at least: 3.5.0
+Tested up to: 4.2
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add flexible unread post lists to your sidebar or under single posts. Easily extendable for developers wanting to leverage it.
 
-## Description
+== Description ==
 
 Unread posts is a plugin for regular users and developers alike. For regular users it allows for the creation of widgets that display posts the user has not yet read. It will work for logged in and logged out users as well. You can also add unread posts just below your single post content.
 
@@ -10,24 +17,9 @@ For logged out users the plugin uses cookies so please make sure your users cons
 
 The plugin contains a bunch of developer friendly features so you can easily leverage the core functionality, the management of read/unread posts. The class may be used alone, you can use some built in functions and I've added a bunch of filters for you to modify everything from what shows up in lists to how the lists are actually displayed.
 
-For more information on developer features take a look at the Developers Features section below
+For more information on developer features take a look at the Other Notes section.
 
-#### Thanks
-
-* [FontAwesome](fontawesome.io) for the icons used in the plugin featured image and icon
-
-#### Translations
-
-The plugin is currently available in English and Hungarian. Please feel free to submit any new languages via a pull request, I'd be mighty thankful.
-
-#### Useful Links
-
-This Github repository is for the development of this plugin. If you would like to read installation and in-depth usage instructions you might want to look at the WordPress plugin page instead.
-
-- [Plugin Page](https://wordpress.org/plugins/unread-posts/)
-- [SVN Repository](http://plugins.svn.wordpress.org/unread-posts/)
-
-# Usage
+= Usage =
 
 The plugin offers a widget and an optional section below posts. The widget can be added in Appearance->Widgets and has a number of options. Hopefully these are all self explanatory, let me know if you have any questions.
 
@@ -39,20 +31,35 @@ The "Post Types To List" section allows you to control which post types are show
 
 If you select "Select from a list" you will get a dropdown which allows you to specify the post types you would like shown in the list.
 
+= Thanks =
 
-# Developer Features
+* [FontAwesome](fontawesome.io) for the icons used in the plugin featured image and icon
+
+== Installation ==
+
+= Automatic Installation =
+
+Installing this plugin automatically is the easiest option. You can install the plugin automatically by going to the plugins section in WordPress and clicking Add New. Type "Unread Posts" in the search bar and install the plugin by clicking the Install Now button.
+
+= Manual Installation =
+
+To manually install the plugin you'll need to download the plugin to your computer and upload it to your server via FTP or another method. The plugin needs to be extracted in the `wp-content/plugins` folder. Once done you should be able to activate it as usual.
+
+If you are having trouble, take a look at the [Managing Plugins](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation) section in the WordPress Codex, it has more information on this topic.
+
+== Other Notes ==
 
 The plugin was written in a completely object oriented fashion to make it easy to extend. If you need to use the raw functionality of unread posts you'll want to use the $up_unread_posts variable which can be globalized and used anywhere.
 
-## Using The Unread Posts Class
+= Using The Unread Posts Class =
 
 This has the following methods you can use:
 
-- set_posts_as_read( $posts )
-- set_posts_as_unread( $posts )
-- get_read_posts()
-- get_unread_posts()
-- delete_read_posts()
+* set_posts_as_read( $posts )
+* set_posts_as_unread( $posts )
+* get_read_posts()
+* get_unread_posts()
+* delete_read_posts()
 
 Please see the appropriate files for more information on these functions and how to use them. All files have extensive phpDoc which should help you out.
 
@@ -60,7 +67,7 @@ Depending on the user state different classes handle these functions, you can al
 
 Also note that some functions may not be usable everywhere. For example, cookies are used to store read posts. The value of cookies must be set before any HTML is sent so you can't just use the set_posts_as_read() function anywhere you'd like.
 
-## Hooks
+= Hooks =
 
 The plugin has lots of hooks which help you extend it. Here is a full list of the ones available right now:
 
@@ -153,12 +160,19 @@ function my_usable_post_types( $post_types ) {
     return $post_types;
 }`
 
+== Screenshots ==
 
+1. Widget Settings
+2. Unread post section settings
+3. Widget display in Twenty Fifteen
+4. Unread post section display in Twenty Fifteen
+5. Widget display in Twenty Fourteen
+6. Unread post section display in Twenty Fourteen
+7. Widget display in No Nonsense
+8. Unread post section display in No Nonsense
 
-# Want To Help?
+== Changelog ==
 
-If you like the plugin and you like helping others out there are a few things you can do:
+= 1.0.0 =
 
-- **[Review the plugin](https://wordpress.org/support/view/plugin-reviews/unread-posts)**
-- **Submit a translation** If you speak another language goodly, you can submit a language file, I'd be mighty thankful! Take a look at the lang directory to see what languages we already have. If a language isn't there create one and submit a pull request. If you have no idea what I'm talking about drop me a line and I'll help you out
-- **[Tip me on Gratipay](https://gratipay.com/danielpataki/)**
+* Initial Release.

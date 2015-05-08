@@ -1,0 +1,21 @@
+/* TEAM */
+
+Name: Daniel Pataki
+Title: Founding Developer
+Twitter: danielpataki
+
+/* THANKS */
+
+Name: WordPress
+Website: http://wordpress.org
+For: Making WordPress
+
+Name: Dave Gandy
+Website: https://twitter.com/davegandy
+For: Making Font Awesome
+
+
+/* META */
+Updated: 2015/05/08
+Software: WordPress
+See: http://humanstxt.org/
