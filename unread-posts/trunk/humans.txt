@@ -16,6 +16,6 @@ For: Making Font Awesome
 
 
 /* META */
-Updated: 2015/05/08
+Updated: 2015/05/12
 Software: WordPress
 See: http://humanstxt.org/
