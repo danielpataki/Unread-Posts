@@ -130,7 +130,8 @@ class UP_Unread_Posts_Widget extends WP_Widget {
      */
      public function widget( $args, $instance ) {
 
-         global $up_unread_posts;
+         global $up_unread_posts, $post;
+         $main_post = $post;
 
          $query_args = array(
              'posts_per_page' => $instance['count'],
@@ -155,6 +156,7 @@ class UP_Unread_Posts_Widget extends WP_Widget {
          echo apply_filters( 'up/unread_widget_display', $display, $unread, $instance );
 
          echo $args['after_widget'];
+         $post = $main_post;
 
      }
 
