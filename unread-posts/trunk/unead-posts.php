@@ -2,7 +2,7 @@
 /*
 Plugin Name:       Unread Posts
 Description:       A plugin that can display unread posts
-Version:           1.0.2
+Version:           1.0.3
 Author:            Daniel Pataki
 Author URI:        http://danielpataki.com/
 License:           GPLv2 or later

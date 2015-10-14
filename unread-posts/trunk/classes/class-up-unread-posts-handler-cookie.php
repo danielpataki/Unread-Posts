@@ -110,6 +110,10 @@ class UP_Unread_Posts_Handler_Cookie extends UP_Unread_Posts_Handler implements 
             $posts = array( $posts );
         }
 
+        if( !is_array( $posts ) ) {
+            return;
+        }
+
         // If the articles are already in the read list, don't do anything
         if( array_intersect( $this->read_posts, $posts ) == $posts ) {
             return ;
